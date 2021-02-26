@@ -3,8 +3,8 @@ public class SinhVien {
     String name;
     float diemLT;
     float diemTH;
-
-    SinhVien(int maSV, String name, float diemLT, float diemTH) {
+    public SinhVien(){}
+    public SinhVien(int maSV, String name, float diemLT, float diemTH) {
         this.maSV = maSV;
         this.name = name;
         this.diemLT = diemLT;
